@@ -13,3 +13,12 @@
   --teal: #008080;
   --orange: #ffa500;
 }
+
+body{
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: rgb(27,27,27);
+  color: var(--light);
+  font-family: Roboto;
+}
