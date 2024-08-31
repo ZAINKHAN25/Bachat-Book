@@ -3,6 +3,7 @@ import React from 'react';
 import { Box, Button, Heading, Input, Text } from '@chakra-ui/react';
 
 
+// Login Page Function
 function LoginPage() {
   return (
     <Box
@@ -14,7 +15,6 @@ function LoginPage() {
       alignItems={"center"}
       flexWrap={"wrap"}
     >
-
       <Box
         display={"flex"}
         flexDirection={"column"}
@@ -109,7 +109,6 @@ function LoginPage() {
               placeholder={"Your Password..."}
             />
           </Box>
-
           <Button
             ms={"auto"}
             mt={10}
