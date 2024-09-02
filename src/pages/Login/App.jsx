@@ -3,7 +3,7 @@ import React from 'react';
 import { Box, Button, Heading, Input, Text } from '@chakra-ui/react';
 
 
-// Login Page Function
+
 function LoginPage() {
   return (
     <Box
@@ -25,24 +25,6 @@ function LoginPage() {
         my={5}
         gap={15}
       >
-        
-        <Box>
-          Hey it's a Bachat Book Website
-        </Box>
-      </Box>
-      <Box
-        display={"flex"}
-        flexDirection={"column"}
-        justifyContent={"center"}
-        alignItems={"start"}
-        flex={1}
-        minW={200}
-        my={5}
-        gap={15}
-      >
-        <Box>
-
-        </Box>
 
         <Heading
           color={`var(--teal)`}
@@ -70,8 +52,8 @@ function LoginPage() {
             gap={10}
           >
             <Text>
-              Your Email:
-            </Text>
+              Your Email or Your Profile Name:
+            </Text> 
             <Input
               w={500}
               px={15}
@@ -82,8 +64,8 @@ function LoginPage() {
               borderRadius={20}
               outline={"none"}
               type={'email'}
-              placeholder={"Your Email..."}
-              />
+              placeholder={"Your Email or your Profile Name..."}
+            />
           </Box>
           <Box
             display={"flex"}

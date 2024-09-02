@@ -14,6 +14,7 @@ function LoadinPage() {
             top={0}
             left={0}
             bg={"rgba(0,0,0,80%)"}
+            overflow={"hidden"}
         >
             <PuffLoader
                 size={150}
